@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import {SortingVisualizerComponent} from "./components/sorting-visualizer/sorting-visualizer.component";
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  standalone:true,
+  imports: [SortingVisualizerComponent]
 })
-export class AppComponent {
-  title = 'Sorting_Visualizer';
-}
+export class AppComponent {}
