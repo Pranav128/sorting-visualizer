@@ -40,6 +40,9 @@ A Sorting Visualizer built using Angular to help visualize different sorting alg
    ```
 4. Open your browser and go to http://localhost:4200.
 
+## Output 
+![Output-gif](output/sorting_visualizer(gif).gif)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 
 ## Usage
