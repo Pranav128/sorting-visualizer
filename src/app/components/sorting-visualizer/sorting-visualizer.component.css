@@ -1,0 +1,84 @@
+/* Container styles */
+.container {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styles */
+h1 {
+  color: #343a40; /* Darker text */
+  margin-bottom: 20px;
+}
+
+/* Controls styles */
+.controls {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+/* Individual control styles */
+.controls label {
+  margin: 0 10px; /* Horizontal margin for spacing */
+  font-weight: bold;
+  color: #495057; /* Darker color for labels */
+}
+
+.controls select,
+.controls input,
+.controls button {
+  margin: 0 5px; /* Horizontal margin */
+  padding: 10px;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.controls button {
+  cursor: pointer;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Array container styles */
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  margin: 20px 0;
+  border: 2px solid #007bff; /* Blue border around the array */
+  border-radius: 5px;
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Individual array bar styles */
+.array-bar {
+  width: 10px;
+  margin: 0 2px;
+  background-color: cornflowerblue;
+  transition: height 0.3s ease, background-color 0.3s ease;
+  border-radius: 3px; /* Rounded corners */
+}
+
+/* Highlight styles for sorting */
+.array-bar.highlight {
+  background-color: #ff6347; /* Tomato color for highlights */
+}
+
+.array-bar.sorted {
+  background-color: #28a745; /* Green color for sorted elements */
+}
